@@ -1,0 +1,8 @@
+{
+  "label": "Site Tour",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "An orientation to the WEFE Nexus website — the landing page, the top navigation, and what each section covers."
+  }
+}

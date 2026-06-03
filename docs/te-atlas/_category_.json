@@ -1,0 +1,8 @@
+{
+  "label": "TE Atlas",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "TE Atlas is the interactive vulnerability mapping section. Pick a production unit, see how vulnerable each of the 22 mukims is, and explore future scenarios under climate change."
+  }
+}
