@@ -15,7 +15,7 @@ This is the *research-documentation* tab on the live site — not to be confused
 >
 > ![](/img/site/docs-overview.png)
 
-[TODO: Aznan — send a screenshot or describe:
+[TODO: Ziana — send a screenshot or describe:
 
 - Whether this is a single page or a sub-site of documents
 - The categories of documents (papers, datasets, methodology, presentations)

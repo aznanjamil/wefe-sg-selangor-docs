@@ -11,7 +11,7 @@ The **Finance** page covers financing pathways and case studies for adaptation w
 >
 > ![](/img/site/finance-overview.png)
 
-[TODO: Aznan — send a screenshot or describe:
+[TODO: Ziana — send a screenshot or describe:
 
 - The financing categories shown (public/private, grant/debt/equity, blended)
 - Specific instruments featured (green bonds, water trusts, PES schemes, etc.)

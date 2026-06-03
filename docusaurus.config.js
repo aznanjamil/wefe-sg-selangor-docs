@@ -15,7 +15,7 @@ const config = {
   baseUrl: '/docs/',
 
   organizationName: 'aznanjamil',
-  projectName: 'wefe-nexus-docs',
+  projectName: 'wefe-sg-selangor-docs',
 
   onBrokenLinks: 'warn',
 
@@ -31,6 +31,9 @@ const config = {
     locales: ['en'],
   },
 
+  // Add 'embed-mode' class to <body> when rendered inside an iframe or with ?embed=1.
+  clientModules: ['./src/clientModules/embedMode.js'],
+
   presets: [
     [
       'classic',
@@ -41,7 +44,7 @@ const config = {
           // Serve docs directly under baseUrl (/docs/) so URLs are /docs/welcome
           // instead of /docs/docs/welcome.
           routeBasePath: '/',
-          editUrl: 'https://github.com/aznanjamil/wefe-nexus-docs/edit/main/',
+          editUrl: 'https://github.com/aznanjamil/wefe-sg-selangor-docs/edit/main/',
         },
         blog: false,
         theme: {
@@ -72,7 +75,7 @@ const config = {
             label: 'Manual',
           },
           {
-            href: 'https://github.com/aznanjamil/wefe-nexus-docs',
+            href: 'https://github.com/aznanjamil/wefe-sg-selangor-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -99,7 +102,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/aznanjamil/wefe-nexus-docs',
+                href: 'https://github.com/aznanjamil/wefe-sg-selangor-docs',
               },
             ],
           },

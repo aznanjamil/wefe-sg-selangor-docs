@@ -10,7 +10,7 @@ title: Getting Started
 TE Atlas is a web application — no install needed. Open your browser and go to:
 
 ```
-https://wefe-civilmum.hub.arcgis.com
+https://wefe-civilmum.hub.arcgis.com/pages/te-atlas
 ```
 
 > 
@@ -23,6 +23,11 @@ The app may take a few seconds to load on first visit while the map data finishe
 
 The screen is split into four regions:
 
+> 
+>
+> ![](/img/layout-annotated.png)
+
+
 | Region | Purpose |
 |---|---|
 | **Left panel** | Controls: scenario toggle, production unit, year/period, narrative lens |
@@ -30,9 +35,6 @@ The screen is split into four regions:
 | **Right panel** | Detail card — appears when you click a mukim |
 | **Bottom bar** | Legend + basin-wide summary (average, most/least vulnerable) |
 
-> 📷 **Screenshot to capture:** `static/img/layout-annotated.png` — the four regions labeled with arrows.
->
-> ![](/img/layout-annotated.png)
 
 ## The first thing to choose: Current vs Future
 

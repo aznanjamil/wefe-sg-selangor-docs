@@ -11,7 +11,7 @@ The **NBS** page catalogues specific nature-based interventions evaluated for th
 >
 > ![](/img/site/nbs-overview.png)
 
-[TODO: Aznan — send a screenshot or describe:
+[TODO: Ziana — send a screenshot or describe:
 
 - The list / catalogue of NBS options shown on the page
 - How they're organised (by category? by location? by cost?)

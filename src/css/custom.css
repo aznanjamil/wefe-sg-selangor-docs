@@ -28,3 +28,20 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* ----------------------------------------------------------------- */
+/* Embed mode: hide Docusaurus chrome when rendered inside an iframe   */
+/* (or when ?embed=1 is in the URL). Triggered by embedMode.js client  */
+/* module which adds .embed-mode to <body>.                            */
+/* ----------------------------------------------------------------- */
+body.embed-mode .navbar,
+body.embed-mode .footer,
+body.embed-mode .theme-doc-breadcrumbs,
+body.embed-mode .theme-doc-footer-edit-meta-row {
+  display: none !important;
+}
+
+/* Pull content up to reclaim the navbar's vertical space */
+body.embed-mode .main-wrapper {
+  margin-top: 0;
+}

@@ -11,7 +11,7 @@ The **The Model** page explains how the WEFE Nexus model is built — what data 
 >
 > ![](/img/site/model-overview.png)
 
-[TODO: Aznan — this page is methodology-heavy. Send a screenshot or describe:
+[TODO: Ziana — this page is methodology-heavy. Send a screenshot or describe:
 
 - The overall model architecture diagram (if there is one)
 - Data sources used (climate, hydrology, land use, demographics)
