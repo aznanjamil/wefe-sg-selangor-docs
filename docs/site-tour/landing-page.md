@@ -7,8 +7,6 @@ title: Landing Page
 
 The first thing you see when you open WEFE Nexus.
 
-> 📷 **Screenshot to capture:** `static/img/site/landing-hero.png` — the full landing page with the dam hero image and the headline.
->
 > ![](/img/site/landing-hero.png)
 
 ## Hero
@@ -34,8 +32,7 @@ A horizontal strip just below the hero summarises the geographic scope:
 >
 > **Location:** Selangor, Malaysia · **Year:** 2025
 
-> 📷 **Screenshot to capture:** `static/img/site/landing-study-area-strip.png`
-
+> ![](/img/site/landing-study-area-strip.png)
 ## About the basin
 
 A "Sungai Selangor — A Lifeline Under Pressure" section gives the context:
@@ -56,7 +53,7 @@ A "Sungai Selangor — A Lifeline Under Pressure" section gives the context:
 
 Two dams — **Tinggi** and **Selangor** — are called out as the major flow regulators feeding the basin's water-treatment plants.
 
-> 📷 **Screenshot to capture:** `static/img/site/landing-stats.png`
+> ![](/img/site/landing-stats.png)
 
 ## Analytical framework: four lenses
 
@@ -73,7 +70,7 @@ The landing page introduces the WEFE framework — four interconnected sectors, 
 
 Each lens has a "View Dashboard" button taking you to the corresponding dashboard.
 
-> 📷 **Screenshot to capture:** `static/img/site/landing-four-lenses.png`
+> ![](/img/site/landing-four-lenses.png)
 
 ## Interactive dashboards
 
@@ -110,4 +107,4 @@ The footer is split into three columns:
 
 With the tagline: *"An integrated spatial analysis platform understanding the interdependencies between water, energy, food and ecosystems in the Sungai Selangor river basin."*
 
-> 📷 **Screenshot to capture:** `static/img/site/landing-footer.png`
+> ![](/img/site/landing-footer.png)
