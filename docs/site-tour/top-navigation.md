@@ -7,8 +7,6 @@ title: Top Navigation
 
 The top-right nav appears on every page of WEFE Nexus. Seven items, each linking to a section of the site.
 
-> 📷 **Screenshot to capture:** `static/img/site/top-nav.png` — close-up of the navigation strip showing all seven items.
->
 > ![](/img/site/top-nav.png)
 
 ## What each item is for
@@ -29,4 +27,4 @@ The top-right nav appears on every page of WEFE Nexus. Seven items, each linking
 - The currently active section is usually highlighted (check the live app to confirm).
 - All sections are independent — you don't need to read them in order.
 
-> 📷 **Screenshot to capture:** `static/img/site/top-nav-active.png` — close-up of the nav with one item highlighted/active, so users can see how the active state looks.
+> ![](/img/site/top-nav-active.png)

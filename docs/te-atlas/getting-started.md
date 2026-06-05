@@ -45,8 +45,6 @@ At the very top of the left panel you'll see two buttons:
 
 The whole app re-skins itself depending on which one you pick. Most of the rest of this manual walks through each scenario separately.
 
-> 📷 **Screenshot to capture:** `static/img/scenario-toggle.png` — close-up of the Current/Future buttons.
->
 > ![](/img/scenario-toggle.png)
 
 ## What's a "mukim"?

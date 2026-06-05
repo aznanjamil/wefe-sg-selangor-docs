@@ -11,8 +11,6 @@ The map is the centerpiece. Every colored polygon is one mukim, and the color te
 
 The legend lives in the bottom-left of the screen, in the **TE Score** strip.
 
-> 📷 **Screenshot to capture:** `static/img/legend-strip.png` — close-up of the bottom-left legend bar with the 0.00–1.00 scale.
->
 > ![](/img/legend-strip.png)
 
 - **Lower TE score** → less vulnerable
@@ -30,8 +28,6 @@ The colors are split into **five classes** — Very Low, Low, Moderate, High, Ve
 | **Click again** on a different mukim | Detail panel swaps to the new selection |
 | **Click outside any mukim** | Detail panel closes |
 
-> 📷 **Screenshot to capture:** `static/img/map-click-detail.png` — a mukim selected (highlighted outline) with the detail panel open on the right.
->
 > ![](/img/map-click-detail.png)
 
 ## Zoom and pan
@@ -49,8 +45,6 @@ You can also **scroll-wheel** to zoom and **click-drag** to pan.
 
 Below the map you'll see a summary strip:
 
-> 📷 **Screenshot to capture:** `static/img/bottom-metrics-bar.png` — the full bottom bar with all four cells visible (legend, basin average, most/least vulnerable, active view).
->
 > ![](/img/bottom-metrics-bar.png)
 
 | Cell | What it means |

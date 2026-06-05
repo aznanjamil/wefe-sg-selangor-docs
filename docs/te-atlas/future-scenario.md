@@ -7,8 +7,6 @@ title: Future Scenario
 
 The **Future Scenario** view shows projected TE scores under two IPCC climate pathways, for two future time slices. Use this when you're planning for resilience or adaptation — *"where will the most vulnerable mukims be by 2050?"*
 
-> 📷 **Screenshot to capture:** `static/img/future-overview.png` — the full app in Future Scenario mode with Household + SSP2-4.5 + Mid Century selected.
->
 > ![](/img/future-overview.png)
 
 When you click **Future Scenario** at the top of the left panel, the whole app re-skins:
@@ -21,8 +19,6 @@ When you click **Future Scenario** at the top of the left panel, the whole app r
 
 Same five units as Current. Pick whichever sector you're studying.
 
-> 📷 **Screenshot to capture:** `static/img/future-controls.png` — the left panel showing Production Unit, SSP cards, and Period buttons stacked vertically.
->
 > ![](/img/future-controls.png)
 
 ## Step 2 — Pick the Climate Scenario (SSP)
@@ -34,8 +30,6 @@ Two scenarios from IPCC AR6:
 | **SSP2-4.5** | Moderate emissions — *"middle of the road"* development pathway |
 | **SSP5-8.5** | High emissions — *"fossil-fueled development"* worst-case |
 
-> 📷 **Screenshot to capture:** `static/img/future-ssp-cards.png` — the two SSP cards side by side, one selected.
->
 > ![](/img/future-ssp-cards.png)
 
 Click the card to switch scenarios. Everything below — map, ranking, climate context, detail panel — updates to that scenario.
@@ -50,8 +44,6 @@ Three time windows, but only two are *selectable*. The third is always shown as 
 | **Mid Century** | 2047–2073 | Yes — labeled *"by 2050"* in the ranking |
 | **Late Century** | 2074–2100 | Yes — labeled *"by 2100"* in the ranking |
 
-> 📷 **Screenshot to capture:** `static/img/future-period-buttons.png` — the Mid/Late Century buttons with the "Early Century · baseline" note above.
->
 > ![](/img/future-period-buttons.png)
 
 The Δ (delta) you'll see throughout the UI is always *target period − Early Century*. So if Late Century TE is **0.94** and Early Century was **0.84**, Δ = **+0.10**.
@@ -60,8 +52,6 @@ The Δ (delta) you'll see throughout the UI is always *target period − Early C
 
 Right under the Period buttons, the **Climate Context** card shows what the future is going to *feel* like under the chosen SSP and period:
 
-> 📷 **Screenshot to capture:** `static/img/future-climate-context.png` — the climate context card showing Max Temperature and Max Precipitation values with deltas.
->
 > ![](/img/future-climate-context.png)
 
 | Value | What it means |
@@ -75,8 +65,6 @@ The colored delta (e.g. `+1.17 °C`, `−1.31 mm`) tells you the magnitude of th
 
 Below Climate Context, the **TE Ranking · Mid vs Early** (or *Late vs Early*) section sorts mukims by how much their TE shifts from the Early baseline to the target period.
 
-> 📷 **Screenshot to capture:** `static/img/future-ranking.png` — the ranking with stacked Current/Target bars and Δ values colored red or green.
->
 > ![](/img/future-ranking.png)
 
 Each row shows:
@@ -102,8 +90,6 @@ Click any row to open the detail panel for that mukim.
 
 Click a mukim on the map (or in the ranking). The right panel switches to the **Forecast TE** view:
 
-> 📷 **Screenshot to capture:** `static/img/future-detail-panel.png` — detail panel for a selected mukim showing the 5 production unit cards with Current/2050/2100 bars.
->
 > ![](/img/future-detail-panel.png)
 
 For each of the five Production Units, you'll see:
@@ -118,8 +104,6 @@ If a unit is missing data for this mukim (e.g. Water Utilities is missing data f
 
 You may notice a small map in the bottom-left corner of the map area. **That's the switch-map tool.** Because the app uses two separate map layers (one for Current data, one for Forecast data), the system flips between them when you toggle scenarios. The small map shows the *other* layer — clicking it would manually swap, but you shouldn't need to: the scenario toggle does that automatically.
 
-> 📷 **Screenshot to capture:** `static/img/future-switch-map.png` — the small map in the corner, with an arrow pointing at it.
->
 > ![](/img/future-switch-map.png)
 
 ## Tips for planners
