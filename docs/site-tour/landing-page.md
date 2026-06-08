@@ -15,7 +15,7 @@ The landing page opens with a hero image of the basin, headlined:
 
 > **Sungai Selangor River Basin Analysis**
 >
-> A comprehensive spatial analysis of the Sungai Selangor river basin — Selangor's largest water catchment supplying over 60% of the state's drinking water — through the integrated Water-Energy-Food-Ecosystem (WEFE) Nexus framework.
+> A comprehensive spatial analysis of the Sungai Selangor river basin — Selangor's largest water catchment supplying over 60% of the state's drinking water — through the integrated Water-Energy-Food-Environment (WEFE) Nexus framework.
 
 Two call-to-action buttons:
 
@@ -28,16 +28,17 @@ Two call-to-action buttons:
 
 A horizontal strip just below the hero summarises the geographic scope:
 
-> **Study Area: Sungai Selangor Basin** — 2,200 km² spanning Hulu Selangor, Kuala Selangor & Gombak districts.
+> **Study Area: Sungai Selangor Basin** — 1,955 km² spanning Hulu Selangor, Kuala Selangor & Gombak districts.
 >
 > **Location:** Selangor, Malaysia · **Year:** 2025
 
 > ![](/img/site/landing-study-area-strip.png)
+
 ## About the basin
 
 A "Sungai Selangor — A Lifeline Under Pressure" section gives the context:
 
-- The basin is the **largest water catchment in Selangor**, covering ~2,200 km² across **Hulu Selangor, Kuala Selangor and Gombak**.
+- The basin is the **largest water catchment in Selangor**, covering **~1,955 km²** across **Hulu Selangor, Kuala Selangor and Gombak**.
 - The river flows **110 km** from its **1,500 m**-elevation source to the **Straits of Melaka**.
 - It supplies **over 60% of drinking water** for Selangor and Kuala Lumpur.
 - It faces pressure from **urbanisation, agricultural intensification, and industrial activity**.
@@ -46,7 +47,7 @@ A "Sungai Selangor — A Lifeline Under Pressure" section gives the context:
 
 | Stat | Value |
 |---|---|
-| Catchment area | **2,200 km²** |
+| Catchment area | **1,955 km²** |
 | River length | **110 km** |
 | Selangor & KL water supply | **60%** |
 | Districts covered | **3** |
@@ -55,36 +56,26 @@ Two dams — **Tinggi** and **Selangor** — are called out as the major flow re
 
 > ![](/img/site/landing-stats.png)
 
-## Analytical framework: four lenses
+## Analytical framework
 
-The landing page introduces the WEFE framework — four interconnected sectors, each with a dashboard:
+The landing page introduces the WEFE framework — five interconnected sectors, each tracked by the TE Atlas:
 
-> "The Sungai Selangor basin is assessed through four interconnected sectors. Changes in one — such as upstream deforestation — cascade through water quality, energy production, agricultural output and ecosystem health."
+> "The Sungai Selangor basin is assessed through five interconnected sectors. Changes in one — such as upstream deforestation — cascade through household livelihoods, water quality, energy production, agricultural output and ecosystem health."
 
 | Lens | Focus |
 |---|---|
-| **Water** | River flow, water quality (WQI), dam reservoir levels, treatment-plant intake capacity, pollution sources |
-| **Energy** | Hydroelectric generation, water-treatment energy demand, renewable potential |
-| **Food** | Agricultural land use in Tanjung Karang and surrounding sub-basins, irrigation dependency, runoff impacts |
-| **Ecosystem** | Forest cover in upstream Hulu Selangor, riparian zone health, biodiversity, ecosystem services |
+| **Household** | Community-level vulnerability — income, expenditure, and coping capacity under climate and resource stress |
+| **Water** | River flow, water quality (WQI), dam reservoir levels, treatment-plant intake capacity, pollution sources, non-revenue water |
+| **Energy** | Hydroelectric generation, water-treatment energy demand, renewable potential, pumping operations |
+| **Food** | Agricultural land use in Tanjung Karang and surrounding sub-basins, irrigation dependency, aquaculture, livestock, runoff impacts |
+| **Environment** | Forest cover in upstream Hulu Selangor, peat swamps, mangroves, riparian zone health, biodiversity, ecosystem services |
 
-Each lens has a "View Dashboard" button taking you to the corresponding dashboard.
+Each lens is measured by a **Technical Efficiency (TE) score** per mukim. Higher TE means more efficient and less vulnerable; lower TE means less efficient and more vulnerable.
+
+> **Remember:** Higher TE = more efficient, less vulnerable ✅ | Lower TE = less efficient, more vulnerable ⚠️
 
 > ![](/img/site/landing-four-lenses.png)
 
-## Interactive dashboards
-
-A section titled **"Interactive Basin Dashboards — Spatial Analysis"** lists five available dashboards:
-
-| Dashboard | What it covers |
-|---|---|
-| **Water Dashboard** | River flow, WQI monitoring stations, dam levels, pollution hotspots |
-| **Energy Dashboard** | Hydroelectric output, treatment-plant energy demand, renewable potential |
-| **Food Dashboard** | Agricultural zones, irrigation dependency, land-use change |
-| **Ecosystem Dashboard** | Forest cover, riparian corridors, biodiversity |
-| **Integrated Basin Overview** | Cross-sector view with synergies, trade-offs and key performance indicators |
-
-> 📷 **Screenshot to capture:** `static/img/site/landing-dashboard-grid.png`
 
 ## Closing call to action
 

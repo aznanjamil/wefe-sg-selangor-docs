@@ -5,7 +5,7 @@ title: Current Scenario
 
 # Current Scenario
 
-The **Current Scenario** view shows TE scores derived from observed data, for the years your team has collected. Use this to see today's vulnerability and how it has trended in recent years.
+The **Current Scenario** view shows TE scores derived from observed data, for the years your team has collected. Use this to see today's efficiency and how it has trended in recent years.
 
 > ![](/img/current-overview.png)
 
@@ -35,7 +35,7 @@ You can also press the **▶ Play** button to animate through the years and watc
 
 ## Step 3 — Read the TE Ranking
 
-Underneath the year controls, the **TE Ranking** tab lists every mukim sorted by TE score. The most vulnerable is at the top, least at the bottom (by default).
+Underneath the year controls, the **TE Ranking** tab lists every mukim sorted by TE score. The highest TE score is at the top, lowestTE at the bottom (by default).
 
 > ![](/img/current-ranking-tab.png)
 
@@ -44,6 +44,10 @@ Each row shows:
 - **Mukim name** (left column)
 - **A colored bar** — width = TE score, color matches the map renderer
 - **The TE value** as a number on the right
+
+**Remember:**
+- **Higher TE score** = more efficient, less vulnerable ✅
+- **Lower TE score** = less efficient, more vulnerable ⚠️
 
 Click any row to select that mukim — the map pans to it and the detail panel opens.
 

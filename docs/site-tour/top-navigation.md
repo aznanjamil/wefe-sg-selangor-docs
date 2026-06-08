@@ -18,6 +18,7 @@ The top-right nav appears on every page of WEFE Nexus. Seven items, each linking
 | **The Model** | How the WEFE model is built — methodology, inputs, assumptions | You're a researcher or reviewer who needs to understand the data lineage. |
 | **TE Atlas** | Interactive vulnerability maps per mukim | You're doing planning or impact assessment for specific mukims. |
 | **NBS** | Nature-Based Solutions catalogue | You want to see specific interventions (riparian buffers, recharge wetlands, etc.) considered for the basin. |
+| **Feedback** | Feedback Form | Stakeholder feedback form. |
 | **Finance** | Financing pathways for adaptation work | You're scoping costs, funders, or financing structures. |
 | **Docs** | Research outputs, publications, references | You need citations or want to read the underlying research. |
 

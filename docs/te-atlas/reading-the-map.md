@@ -13,8 +13,8 @@ The legend lives in the bottom-left of the screen, in the **TE Score** strip.
 
 > ![](/img/legend-strip.png)
 
-- **Lower TE score** → less vulnerable
-- **Higher TE score** → more vulnerable
+- **Lower TE score** → less efficient, more vulnerable
+- **Higher TE score** → more efficient, less vulnerable
 - Colors are pulled directly from the map renderer published in AGOL. If the planning team updates the renderer in AGOL, the legend (and the colors in the ranking bars) updates automatically.
 
 The colors are split into **five classes** — Very Low, Low, Moderate, High, Very High. Two mukims in the same color class have similar vulnerability levels.
@@ -50,9 +50,9 @@ Below the map you'll see a summary strip:
 | Cell | What it means |
 |---|---|
 | **TE Score** | The legend strip (see above). |
-| **Basin Avg TE** | Average TE score across all 22 mukims for the current selection (Production Unit × Year/Period × SSP if Future). The ring color matches where that average sits on the legend. |
-| **Most Vulnerable** | The mukim with the highest TE score in the current selection. |
-| **Least Vulnerable** | The mukim with the lowest TE score. |
+| **Basin Avg TE** | Average TE score across all 22 mukims for the current selection. The ring color matches where that average sits on the legend. |
+| **Most Vulnerable** | The mukim with the lowest TE score. |
+| **Least Vulnerable** | The mukim with the highest TE score in the current selection. |
 | **Active View** | A label of what slice you're currently looking at (e.g. *Household · 2024* or *Household · Mid SSP245*). |
 
 These update live as you change the Production Unit, Year, SSP scenario, or Period.

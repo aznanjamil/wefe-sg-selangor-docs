@@ -5,14 +5,14 @@ title: Future Scenario
 
 # Future Scenario
 
-The **Future Scenario** view shows projected TE scores under two IPCC climate pathways, for two future time slices. Use this when you're planning for resilience or adaptation — *"where will the most vulnerable mukims be by 2050?"*
+The **Future Scenario** view shows projected TE scores under two IPCC climate pathways, for two future time slices. Use this when you're planning for resilience or adaptation — *"where will the least efficient mukims be by 2050?"*
 
 > ![](/img/future-overview.png)
 
 When you click **Future Scenario** at the top of the left panel, the whole app re-skins:
 
 - The map switches to the **forecast layer** (this may take a second — you'll see a brief animation).
-- The controls beneath change to climate-scenario controls (no Year slider; that's a Current-only thing).
+- The controls beneath change to climate-scenario controls.
 - The bottom bar legend changes to the forecast renderer.
 
 ## Step 1 — Pick the Production Unit
@@ -65,6 +65,8 @@ The colored delta (e.g. `+1.17 °C`, `−1.31 mm`) tells you the magnitude of th
 
 Below Climate Context, the **TE Ranking · Mid vs Early** (or *Late vs Early*) section sorts mukims by how much their TE shifts from the Early baseline to the target period.
 
+> 📷 **Screenshot to capture:** `static/img/future-ranking.png` — the ranking with stacked Current/Target bars and Δ values colored red or green.
+>
 > ![](/img/future-ranking.png)
 
 Each row shows:
@@ -74,15 +76,19 @@ Each row shows:
   - Top bar = Current (Early Century) TE — width and color reflect that value
   - Bottom bar = Target (Mid or Late) TE — width and color reflect that value
 - **Δ vs current** (right) — colored:
-  - 🔴 Red if positive (TE got worse — increased vulnerability)
-  - 🟢 Green if negative (TE got better — reduced vulnerability)
+  - 🔴 **Red** if negative (TE got worse — less efficient, more vulnerable)
+  - 🟢 **Green** if positive (TE got better — more efficient, less vulnerable)
   - Grey if no change
+
+**Remember:**
+- **Higher TE score** = more efficient, less vulnerable ✅
+- **Lower TE score** = less efficient, more vulnerable ⚠️
 
 Comparing the two bar lengths tells you the trajectory at a glance:
 
 - Both bars roughly equal → no significant shift
-- Bottom bar **longer** than top → vulnerability is *increasing* by this period
-- Bottom bar **shorter** than top → vulnerability is *decreasing* by this period
+- Bottom bar **shorter** than top → vulnerability is *increasing* by this period (TE got worse)
+- Bottom bar **longer** than top → vulnerability is *decreasing* by this period (TE got better)
 
 Click any row to open the detail panel for that mukim.
 
@@ -104,11 +110,11 @@ If a unit is missing data for this mukim (e.g. Water Utilities is missing data f
 
 You may notice a small map in the bottom-left corner of the map area. **That's the switch-map tool.** Because the app uses two separate map layers (one for Current data, one for Forecast data), the system flips between them when you toggle scenarios. The small map shows the *other* layer — clicking it would manually swap, but you shouldn't need to: the scenario toggle does that automatically.
 
+> 📷 **Screenshot to capture:** `static/img/future-switch-map.png` — the small map in the corner, with an arrow pointing at it.
+>
 > ![](/img/future-switch-map.png)
 
 ## Tips for planners
 
-- **For adaptation planning** → use **SSP5-8.5 + Late Century**. This is the worst-case projection; if your plan handles this it'll handle the others.
-- **For near-term investment** → use **SSP2-4.5 + Mid Century**. Most realistic given current policy direction.
 - **For comparing scenarios** → take a screenshot of one SSP, swap to the other, take a second screenshot. Side-by-side comparison highlights the *climate-driven* differences.
-- **Most-vulnerable shifts** → the Most Vulnerable mukim in Current may not be the same as in Future. Always check both.
+- **Most-at-risk shifts** → the mukim with the highest TE (least vulnerable) in Current may not be the same as in Future. Always check both.

@@ -25,6 +25,7 @@ The site has seven main areas, accessible from the top navigation:
 | **The Model** | How the WEFE model works |
 | **TE Atlas** | Interactive vulnerability maps per mukim |
 | **NBS** | Nature-Based Solutions catalogue |
+| **Feedback** | Stakeholder Feedback Form |
 | **Finance** | Financing pathways and case studies |
 | **Docs** | Research outputs and references |
 
